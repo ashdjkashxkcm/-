@@ -40,11 +40,23 @@ int main()
 	printf(" %d\n", strlen(a));*/
 
 
-	unsigned char i = 0;// i的范围为0-255 下面为死循环
-	for ( i = 0; i <= 255; i++)
-	{
-		printf("hello world");
-	}
+	//unsigned char i = 0;// i的范围为0-255 下面为死循环
+	//for ( i = 0; i <= 255; i++)
+	//{
+	//	printf("hello world");
+	//}
+
+	float f = 5.5;
+	//5.5
+	//101.1
+	// (-1)*0 *1.011*2^2;
+	// -1 * S * M *2^ E
+	//S = 0
+	//M = 1.011
+	//E = 2;
+	//存储方式  S  E+127  M 
+	//          0  129    011
+	//0 10000001 01100000000000000000000
 
 	system("pause");
 	return 0;
